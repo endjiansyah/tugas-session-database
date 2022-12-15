@@ -1,0 +1,18 @@
+<!-- public/views/profile.hbs -->
+<div class="mdl-layout mdl-js-layout mdl-color--grey-100">
+    <main class="mdl-layout__content" style="margin: 0 auto;">
+        <div class="mdl-card mdl-shadow--6dp">
+            <div class="mdl-card__title" style="color: wheat; background: rgb(204, 32, 61)">
+                <h2 class="mdl-card__title-text">About {{ user.username }}</h2>
+            </div>
+            <div>
+                <figure><img src="http://nestjs.com/img/nest-og.png" width="400" height="200">
+                    <figcaption>Welcome {{ user.username }}</figcaption>
+                </figure>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button" href='/logout'>Log Out</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
